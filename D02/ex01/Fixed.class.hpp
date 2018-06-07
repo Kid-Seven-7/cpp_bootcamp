@@ -2,6 +2,7 @@
 #define __FIXED_CLASS_HPP__
 
 #include <iostream>
+#include <cmath>
 
 class Fixed {
 	private:
@@ -39,7 +40,8 @@ class Fixed {
 		//Overloads
 			//Assign Overload
 			Fixed & operator=(Fixed const & rhs);
-			// std::ostream & operator<<(std::ostream & stream, Fixed const & rhs);
 };
+
+std::ostream & operator <<(std::ostream & stream, Fixed const & rhs);
 
 #endif

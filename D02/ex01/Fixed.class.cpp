@@ -31,7 +31,7 @@ Fixed::~Fixed(){
 }
 
 float Fixed::toFloat()const{
-	return (0);
+	return (this->nFixedPointValue);
 }
 
 int Fixed::toInt()const{
@@ -48,7 +48,7 @@ Fixed & Fixed::operator=(const Fixed & rhs){
 	return (*this);
 }
 
-// std::ostream & Fixed::operator<<(std::ostream & stream, Fixed const & rhs){
-// 	stream << rhs.getRawBits();
-// 	return (stream);
-// }
+std::ostream & operator <<(std::ostream & stream, Fixed const & rhs){
+	stream << rhs.getRawBits();
+	return (stream);
+}
