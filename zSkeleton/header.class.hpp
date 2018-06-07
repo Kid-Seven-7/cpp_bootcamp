@@ -92,11 +92,7 @@ class class_name {
 			/* Implementation
 				class_name & class_name::operator=(const class_name [some_variable1] & rhs){
 					std::cout
-					<< "Assignment operator called from "
-					<< this->[some_variable];
-					std::cout
-					<< " and "
-					<< rhs.[some_member_function]()
+					<< "Assignment operator called"
 					<< '\n';
 
 					this->[some_variable] = rhs.[some_member_function]();
