@@ -1,13 +1,16 @@
-#ifndef MYHEADER
-#define MYHEADER
-    ......
+#ifndef __HEADERNAME_HPP__
+#define __HEADERNAME_HPP__
 
-		class class_name {
-		  access_specifier_1:
-		    member1;
-		  access_specifier_2:
-		    member2;
-		  ...
-		} object_names;
+/* Includes
+#include <>
+	#include ""
+*/
+
+//Function declararions
+	//Voids
+	//std::strings
+	//ints
+	//doubles
+	//bools
 
 #endif
