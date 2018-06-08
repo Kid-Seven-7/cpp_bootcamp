@@ -13,6 +13,8 @@ class class_name {
 		//for copy constuctor
 		class_name *ptr;
 
+	protected:
+
 	public:
 		//static variables
 			int NumOf;
