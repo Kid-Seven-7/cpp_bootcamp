@@ -1,6 +1,8 @@
 NAME =
 
-SRC =
+SRCPATH = scrs/
+
+SRC = $(SRCPATH)
 
 SRCO =
 
@@ -8,7 +10,7 @@ COMP = clang++
 
 CPPFLAGS = -Wall -Wextra -Werror
 
-$(LIB) = 
+$(LIB) =
 
 all:	$(NAME)
 
