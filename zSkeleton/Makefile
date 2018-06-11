@@ -8,6 +8,8 @@ COMP = clang++
 
 CPPFLAGS = -Wall -Wextra -Werror
 
+$(LIB) = 
+
 all:	$(NAME)
 
 $(NAME):
